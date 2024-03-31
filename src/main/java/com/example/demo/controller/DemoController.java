@@ -25,4 +25,13 @@ public class DemoController {
     }
 
 
+
+    @RequestMapping(path="/test",method=RequestMethod.GET)
+    public String test(){
+
+
+        return "this is for test";
+
+    }
+
 }
